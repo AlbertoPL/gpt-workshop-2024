@@ -1,12 +1,13 @@
-import Link from "next/link";
+import Chat from "./chat/page";
 
 export default function Home() {
   return (
     <div className="page-container">
-      <h1>Welcome to the GPT Workshop</h1>
-      <p>This repo contains the demo code for a React/NextJS application</p>
-      <p>You can go to the <Link href="/chat">chat example</Link> to see a demo chatbot</p>
-      <p>You can go to the <Link href="/vision">vision example</Link> to see a demo using the vision API</p>
+      <h1>Attentive Company Kick-off 2024 THE RPG</h1>
+      <p>You are a slightly drunk Attentive employee at your company kick off in 2024 and you&apos;re down 200 bucks, you&apos;re slightly tired, and some of your colleagues still respect you.</p>
+      <p>Check out is in 10 hours, and you&apos;re not sure how you want to spend your time yet. You enter the casino and you see a very loud and happy craps table. You think Todd is playing.</p>
+      <p>Meanwhile Bentley is losing money at Blackjack while Jesse seems entertained.</p>
+        <Chat />
     </div>
   );
 }
