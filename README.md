@@ -8,6 +8,7 @@ Featuring an open-ended gameplay experience, this game allows you to respond to 
 
 Prepare to navigate through a series of challenges and opportunities, with each turn presenting a new scenario requiring your decision. After 10 actions, the game concludes, and your fate will be determined by the state of your attributes. If any of them hit zero, the game ends prematurely, highlighting the importance of strategic planning and balance.
 
+![Screenshot 2024-02-09 at 4 34 07 PM](https://github.com/AlbertoPL/gpt-workshop-2024/assets/52108095/da0941c5-d5f1-4ed0-bef4-0a46ba83d64f)
 
 ## Installation
 _This was tested with Node 20, this may work with other versions of node, but can't be guaranteed. If you have a node version manager (nvm/nodenv) to switch to 20 for best results_
