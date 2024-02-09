@@ -206,6 +206,10 @@ body {
   font-family: 'Dosis';
 }
 
+.paragraph {
+  margin-bottom: 15px;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
