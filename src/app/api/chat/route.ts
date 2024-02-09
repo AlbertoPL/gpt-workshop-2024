@@ -34,6 +34,10 @@ export async function POST(req: NextRequest) {
           },
           {
             role: "user",
+            content: "Please output the changes in the three attributes at the end of the response in the following format: {money: net change as a positive or negative number, endurance: net change as a positive or negative number, dignity: net change as a positive or negative number}"
+          },
+          {
+            role: "user",
             content: "The game will be 10 turns. The player will start with 200 dollars. They will start with 50 out of 100 dignity. They will start with 50 out of 100 endurance."
           },
           {
