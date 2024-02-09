@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Honk&display=swap');
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -81,8 +84,9 @@
 
 html,
 body {
-  max-width: 100vw;
   overflow-x: hidden;
+  background: rgb(70,44,116);
+  background: radial-gradient(circle, rgba(70,44,116,1) 0%, rgba(26,7,41,1) 100%);
 }
 
 body {
@@ -91,8 +95,115 @@ body {
 
 
 .page-container {
+  width: 100%;
+  height: 100%;
   max-width: 900px;
-  margin: 60px auto 0;
+  background-image: url('/background.webp');
+  background-size: cover;
+  border-radius: 50px;
+  max-height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 6px solid #54d6ff;
+  box-shadow: inset 0 0 0px 4px rgb(54 3 92);
+  position: relative;
+}
+
+.text-box {
+  border-radius: 24px;
+  background-color: #2e1945;
+  border: 4px solid rgb(255 202 132);
+  max-width: 600px;
+  padding: 16px;
+  color: #ffe5cc;
+  box-shadow: inset 0 0 20px 0px rgba(255, 195, 143, 0.636);
+  font-family: 'Dosis';
+  text-align: center;
+}
+
+.title {
+  padding: 16px;
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.chat-container {
+  position: absolute;
+  bottom: 36px;
+  height: 200px;
+  width: 100%;
+  max-width: 600px;
+  background-color: #0f1b2d;
+  border: 2px solid rgb(29, 151, 175);
+  border-radius: 20px;
+  padding: 16px;
+  display: flex;
+  font-family: 'Dosis';
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 44px;
+  color:  #cce1ff;
+  height: 78%;
+  overflow-y: auto;
+}
+
+.chat-input {
+  position: absolute;
+  bottom: 16px;
+}
+
+.chat-input-field {
+  height: 32px;
+  padding-left: 16px;
+  border-radius: 100px;
+  border: 1px solid rgb(29, 151, 175);
+  color: #54d6ff;
+  background: transparent;
+  width: 200px;
+}
+
+.chat-component-wrapper {
+  display: flex;
+}
+
+.stats-container {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 50px;
+  background-color: #0f1b2d;
+  border: 2px solid rgb(29, 175, 97);
+  color: #ccffe6;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 6px;
+  position: absolute;
+  bottom: 246px;
+}
+
+.game-over {
+  color: #ff000d;;
+  font-size: 64px;
+  background-color: #0000009c;
+  padding: 48px;
+  border-radius: 24px;
+  font-family: 'Dosis';
 }
 
 @media (prefers-color-scheme: dark) {
